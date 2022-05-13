@@ -1,11 +1,14 @@
 .filters {
-  background: white;
+  background: #61f0e6;
   width: 100%;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 .filters li {
   display: inline-block;
   max-width: 80px;
-  padding: 3px;
+  padding: 5px;
 }
 .filters li label {
   display: block;
@@ -99,4 +102,14 @@
 .widget ul li:last-child > a {
   border: none;
   border-radius: 0 0 3px 0;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 170px;
+  padding-top: 5px;
+}
+
+body {
+  background-color: black;
 }
